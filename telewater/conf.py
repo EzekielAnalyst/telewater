@@ -5,7 +5,7 @@ from watermark import Position
 
 
 class Config(BaseModel):
-    watermark: str = "https://user-images.githubusercontent.com/66209958/120103496-7b59a280-c16d-11eb-9590-3ad6b55e163c.png"
+    watermark: str = "https://drive.google.com/file/d/1MuBCyPkasHcQ-h-LW4zYaWtAGgGqjQxV/view?usp=sharing"
     frame_rate: int = 15
     preset: str = "ultrafast"
     position: Position = Position.centre
